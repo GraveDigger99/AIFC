@@ -6,10 +6,18 @@
 	<meta charset="UTF-8">
 	<meta name="format-detection" content="telephone=no">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="css/style.min.css?_v=20240426142354">
+	<link rel="stylesheet" href="css/style.min.css?_v=20240530062219">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap&_v=20240426142354" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap&_v=20240530062219" rel="stylesheet">
+
+
+
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Geologica:wght@100..900&display=swap&_v=20240530062219" rel="stylesheet">
+
 </head>
 
 <body>
@@ -335,7 +343,7 @@
 		<main class="main">
 			<section class="about-us">
 				<div class="about-us__container container">
-					<div class="breadcrumbs">
+					<div class="breadcrumbs breadcrumbs_offset-top">
 						<ul class="breadcrumbs__list">
 							<li class="breadcrumbs__list-item">
 								<a class="breadcrumbs__list-link hover-element" href="index.html">Home</a>
@@ -365,7 +373,7 @@
 					</div>
 				</div>
 			</section>
-			<section class="video">
+			<section class="video video_bg video_offset-top">
 				<div class="video-block">
 					<div id="player"></div>
 					<div data-video="DppVAQqaNE4" data-id="player" class="to-play">
@@ -379,7 +387,7 @@
 					</div>
 				</div>
 			</section>
-			<section class="why">
+			<section data-background-image-wrapper class="why">
 				<div class="why__container container">
 					<div class="why__content">
 						<h2 class="why__medium-title medium-title">Why AIFC</h2>
@@ -387,6 +395,7 @@
 							helps them attract capital in an enabling environment with regulation based on
 							the best international standards, robust financial framework and an independent judicial system.
 						</p>
+						<a data-da=".why__container,767.98,last" href="#" class="main-link main-link_light">LEARN MORE</a>
 					</div>
 					<div class="why__image why__image_desktop">
 						<img src="img/about-us/globa.png" alt="image">
@@ -395,189 +404,196 @@
 						<img src="img/about-us/mobile-global.svg" alt="image">
 					</div>
 				</div>
+				<!-- <img data-background-image src="img/testing/1300x200.jpg" alt="image"> -->
 			</section>
-			<section class="history">
-				<div class="history__top">
-					<div class="container">
-						<h2 class="history__medium-title medium-title medium-title_white">History</h2>
-					</div>
-				</div>
-				<div class="history__main main-history">
-					<div class="main-history__items">
-						<div class="main-history__item">
-							<div class="main-history__inner">
-								<span class="main-history__date">2015 - 2017</span>
-								<h3 class="main-history__medium-title medium-title medium-title_white">Establishment of the
-									AIFC</h3>
-								<p class="main-history__text">Identification of key strategic directions and development of
-									legal framework</p>
-							</div>
-						</div>
-						<div class="main-history__item">
-							<div class="main-history__inner">
-								<span class="main-history__date">2018 - 2022</span>
-								<h3 class="main-history__medium-title medium-title medium-title_white">Development of the
-									AIFC</h3>
-								<p class="main-history__text">A defining period for the AIFC, gaining global prominence and
-									fostering a thriving
-									business community</p>
-							</div>
-						</div>
-						<div class="main-history__item main-history__item_current">
-							<div class="main-history__inner">
-								<span class="main-history__date">2023 and forward</span>
-								<h3 class="main-history__medium-title medium-title medium-title_white">Steady progress</h3>
-								<p class="main-history__text">AIFC: aligned, efficient, innovative, customer-focused</p>
-							</div>
-							<div class="main-history__here">
-								<span>We are here</span>
-							</div>
+			<section class="history history_offset-bottom">
+				<div class="history__wrapper">
+					<div class="history__top">
+						<div class="container">
+							<h2 class="history__medium-title medium-title medium-title_white">History</h2>
 						</div>
 					</div>
-					<div class="main-history__action">
-						<a href="#" class="main-link">LEARN MORE</a>
-					</div>
-				</div>
-			</section>
-			<section class="what">
-				<div class="what__container container">
-					<h2 class="what__medium-title medium-title medium-title_white">What we believe in</h2>
-					<div data-spollers class="spollers-faq">
-						<div class="spollers-faq__item">
-							<button type="button" data-spoller class="spollers-faq__title">
-								<span>Vision</span>
-								<span class="spollers-faq__icon">
-									<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-										<path d="M0 12H24M12 24V0" stroke="white" stroke-width="0.8" />
-									</svg>
-									<svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
-										<path d="M0.485281 17.4853L17.4558 0.514719M17.4558 17.4853L0.485281 0.514719" stroke="white" stroke-width="0.8" />
-									</svg>
-								</span>
-							</button>
-							<div class="spollers-faq__body">The AIFC comprises several bodies and organizations that form the
-								AIFC Ecosystem. These entities have distinct functions
-								but work collectively towards achieving the Centre's strategic goals.</div>
+					<div class="history__main main-history">
+						<div class="main-history__items">
+							<div class="main-history__item">
+								<div class="main-history__inner">
+									<span class="main-history__date">2015 - 2017</span>
+									<h3 class="main-history__medium-title medium-title medium-title_white">Establishment of the
+										AIFC</h3>
+									<p class="main-history__text">Identification of key strategic directions and development of
+										legal framework</p>
+								</div>
+							</div>
+							<div class="main-history__item">
+								<div class="main-history__inner">
+									<span class="main-history__date">2018 - 2022</span>
+									<h3 class="main-history__medium-title medium-title medium-title_white">Development of the
+										AIFC</h3>
+									<p class="main-history__text">A defining period for the AIFC, gaining global prominence and
+										fostering a thriving
+										business community</p>
+								</div>
+							</div>
+							<div class="main-history__item main-history__item_current">
+								<div class="main-history__inner">
+									<span class="main-history__date">2023 and forward</span>
+									<h3 class="main-history__medium-title medium-title medium-title_white">Steady progress</h3>
+									<p class="main-history__text">AIFC: aligned, efficient, innovative, customer-focused</p>
+								</div>
+								<div class="main-history__here">
+									<span>We are here</span>
+								</div>
+							</div>
 						</div>
-						<div class="spollers-faq__item">
-							<button type="button" data-spoller class="spollers-faq__title">
-								<span>Mission</span>
-								<span class="spollers-faq__icon">
-									<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-										<path d="M0 12H24M12 24V0" stroke="white" stroke-width="0.8" />
-									</svg>
-									<svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
-										<path d="M0.485281 17.4853L17.4558 0.514719M17.4558 17.4853L0.485281 0.514719" stroke="white" stroke-width="0.8" />
-									</svg>
-								</span>
-							</button>
-							<div class="spollers-faq__body">The AIFC comprises several bodies and organizations that form the
-								AIFC Ecosystem. These entities have distinct functions
-								but work collectively towards achieving the Centre's strategic goals.</div>
-						</div>
-						<div class="spollers-faq__item">
-							<button type="button" data-spoller class="spollers-faq__title">
-								<span>Objectives</span>
-								<span class="spollers-faq__icon">
-									<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-										<path d="M0 12H24M12 24V0" stroke="white" stroke-width="0.8" />
-									</svg>
-									<svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
-										<path d="M0.485281 17.4853L17.4558 0.514719M17.4558 17.4853L0.485281 0.514719" stroke="white" stroke-width="0.8" />
-									</svg>
-								</span>
-							</button>
-							<div class="spollers-faq__body">The AIFC comprises several bodies and organizations that form the
-								AIFC Ecosystem. These entities have distinct functions
-								but work collectively towards achieving the Centre's strategic goals.</div>
-						</div>
-						<div class="spollers-faq__item">
-							<button type="button" data-spoller class="spollers-faq__title">
-								<span>Values</span>
-								<span class="spollers-faq__icon">
-									<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-										<path d="M0 12H24M12 24V0" stroke="white" stroke-width="0.8" />
-									</svg>
-									<svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
-										<path d="M0.485281 17.4853L17.4558 0.514719M17.4558 17.4853L0.485281 0.514719" stroke="white" stroke-width="0.8" />
-									</svg>
-								</span>
-							</button>
-							<div class="spollers-faq__body">The AIFC comprises several bodies and organizations that form the
-								AIFC Ecosystem. These entities have distinct functions
-								but work collectively towards achieving the Centre's strategic goals.</div>
+						<div class="main-history__action">
+							<a href="#" class="main-link main-link_dark">LEARN MORE</a>
 						</div>
 					</div>
 				</div>
 			</section>
-			<section class="global-standing">
-				<div class="global-standing__container container">
-					<div class="global-standing__header">
-						<h2 class="global-standing__medium-title">Global standing</h2>
-						<div class="global-standing__navigation">
-							<button class="global-standing__button-prev">
-								<svg width="23" height="18" viewBox="0 0 23 18" fill="none" xmlns="http://www.w3.org/2000/svg">
-									<path d="M13.4688 1L21.5494 9.08M21.5494 9.08L13.4676 17.16M21.5494 9.08H0" stroke="#121113" stroke-width="2" />
-								</svg>
-							</button>
-							<button class="global-standing__button-next">
-								<svg width="23" height="18" viewBox="0 0 23 18" fill="none" xmlns="http://www.w3.org/2000/svg">
-									<path d="M13.4688 1L21.5494 9.08M21.5494 9.08L13.4676 17.16M21.5494 9.08H0" stroke="#121113" stroke-width="2" />
-								</svg>
-							</button>
+			<section class="what what_offset-top what_offset-bottom">
+				<div class="what__wrapper">
+					<div class="what__container container">
+						<h2 class="what__medium-title medium-title medium-title_white">What we believe in</h2>
+						<div data-spollers class="spollers-faq">
+							<div class="spollers-faq__item">
+								<button type="button" data-spoller class="spollers-faq__title">
+									<span>Vision</span>
+									<span class="spollers-faq__icon">
+										<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path d="M0 12H24M12 24V0" stroke="white" stroke-width="0.8" />
+										</svg>
+										<svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path d="M0.485281 17.4853L17.4558 0.514719M17.4558 17.4853L0.485281 0.514719" stroke="white" stroke-width="0.8" />
+										</svg>
+									</span>
+								</button>
+								<div class="spollers-faq__body">The AIFC comprises several bodies and organizations that form the
+									AIFC Ecosystem. These entities have distinct functions
+									but work collectively towards achieving the Centre's strategic goals.</div>
+							</div>
+							<div class="spollers-faq__item">
+								<button type="button" data-spoller class="spollers-faq__title">
+									<span>Mission</span>
+									<span class="spollers-faq__icon">
+										<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path d="M0 12H24M12 24V0" stroke="white" stroke-width="0.8" />
+										</svg>
+										<svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path d="M0.485281 17.4853L17.4558 0.514719M17.4558 17.4853L0.485281 0.514719" stroke="white" stroke-width="0.8" />
+										</svg>
+									</span>
+								</button>
+								<div class="spollers-faq__body">The AIFC comprises several bodies and organizations that form the
+									AIFC Ecosystem. These entities have distinct functions
+									but work collectively towards achieving the Centre's strategic goals.</div>
+							</div>
+							<div class="spollers-faq__item">
+								<button type="button" data-spoller class="spollers-faq__title">
+									<span>Objectives</span>
+									<span class="spollers-faq__icon">
+										<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path d="M0 12H24M12 24V0" stroke="white" stroke-width="0.8" />
+										</svg>
+										<svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path d="M0.485281 17.4853L17.4558 0.514719M17.4558 17.4853L0.485281 0.514719" stroke="white" stroke-width="0.8" />
+										</svg>
+									</span>
+								</button>
+								<div class="spollers-faq__body">The AIFC comprises several bodies and organizations that form the
+									AIFC Ecosystem. These entities have distinct functions
+									but work collectively towards achieving the Centre's strategic goals.</div>
+							</div>
+							<div class="spollers-faq__item">
+								<button type="button" data-spoller class="spollers-faq__title">
+									<span>Values</span>
+									<span class="spollers-faq__icon">
+										<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path d="M0 12H24M12 24V0" stroke="white" stroke-width="0.8" />
+										</svg>
+										<svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path d="M0.485281 17.4853L17.4558 0.514719M17.4558 17.4853L0.485281 0.514719" stroke="white" stroke-width="0.8" />
+										</svg>
+									</span>
+								</button>
+								<div class="spollers-faq__body">The AIFC comprises several bodies and organizations that form the
+									AIFC Ecosystem. These entities have distinct functions
+									but work collectively towards achieving the Centre's strategic goals.</div>
+							</div>
 						</div>
 					</div>
-					<div class="global-standing__filters filters" data-filter-block="acts">
-						<a class="filters__link active" href="#">Membership</a>
-						<a class="filters__link" href="#">Recognition</a>
-						<a class="filters__link" href="#">Rankings</a>
-					</div>
+				</div>
+			</section>
+			<section class="global-standing global-standing_offset-top">
+				<div class="global-standing__wrapper-block">
+					<div class="global-standing__container container">
+						<div class="global-standing__header">
+							<h2 class="global-standing__medium-title">Global standing</h2>
+							<div class="global-standing__navigation">
+								<button class="global-standing__button-prev">
+									<svg width="23" height="18" viewBox="0 0 23 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M13.4688 1L21.5494 9.08M21.5494 9.08L13.4676 17.16M21.5494 9.08H0" stroke="#121113" stroke-width="2" />
+									</svg>
+								</button>
+								<button class="global-standing__button-next">
+									<svg width="23" height="18" viewBox="0 0 23 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M13.4688 1L21.5494 9.08M21.5494 9.08L13.4676 17.16M21.5494 9.08H0" stroke="#121113" stroke-width="2" />
+									</svg>
+								</button>
+							</div>
+						</div>
+						<div class="global-standing__filters filters" data-filter-block="acts">
+							<a class="filters__link active" href="#">Membership</a>
+							<a class="filters__link" href="#">Recognition</a>
+							<a class="filters__link" href="#">Rankings</a>
+						</div>
 
-					<div class="global-standing__slider swiper">
-						<div class="global-standing__wrapper swiper-wrapper">
-							<div class="global-standing__slide swiper-slide">
-								<div class="global-standing__name">
-									<img src="img/about-us/global-standing/01.png" alt="image">
-								</div>
-								<div class="global-standing__content">
-									<div class="global-standing__label">
-										World allicance of international financial centers (waifc)
+						<div class="global-standing__slider swiper">
+							<div class="global-standing__wrapper swiper-wrapper">
+								<a href="#" class="global-standing__slide swiper-slide">
+									<div class="global-standing__name">
+										<img src="img/about-us/global-standing/01.png" alt="image">
 									</div>
-									<span class="global-standing__type">AIFC</span>
-								</div>
-							</div>
-							<div class="global-standing__slide swiper-slide">
-								<div class="global-standing__name">
-									<img src="img/about-us/global-standing/02.svg" alt="image">
-								</div>
-								<div class="global-standing__content">
-									<div class="global-standing__label">
-										Capacity-building Alliance of Sustainable Investment (CASI)
+									<div class="global-standing__content">
+										<div class="global-standing__label">
+											World allicance of international financial centers (waifc)
+										</div>
+										<span class="global-standing__type">AIFC</span>
 									</div>
-									<span class="global-standing__type">AIFC</span>
-								</div>
-							</div>
-							<div class="global-standing__slide swiper-slide">
-								<div class="global-standing__name">
-									<img src="img/about-us/global-standing/03.jpg" alt="image">
-								</div>
-								<div class="global-standing__content">
-									<div class="global-standing__label">
-										World allicance of international financial centers (waifc)
+								</a>
+								<a href="#" class="global-standing__slide swiper-slide">
+									<div class="global-standing__name">
+										<img src="img/about-us/global-standing/02.svg" alt="image">
 									</div>
-									<span style="background-color: #8b1058;" class="global-standing__type">AFSA</span>
-								</div>
-							</div>
-							<div class="global-standing__slide swiper-slide">
-								<div class="global-standing__name">
-									<img src="img/about-us/global-standing/03.jpg" alt="image">
-								</div>
-								<div class="global-standing__content">
-									<div class="global-standing__label">
-										World allicance of international financial centers (waifc)
+									<div class="global-standing__content">
+										<div class="global-standing__label">
+											Capacity-building Alliance of Sustainable Investment (CASI)
+										</div>
+										<span class="global-standing__type">AIFC</span>
 									</div>
-									<span class="global-standing__type">AIFC</span>
-								</div>
+								</a>
+								<a href="#" class="global-standing__slide swiper-slide">
+									<div class="global-standing__name">
+										<img src="img/about-us/global-standing/03.jpg" alt="image">
+									</div>
+									<div class="global-standing__content">
+										<div class="global-standing__label">
+											World allicance of international financial centers (waifc)
+										</div>
+										<span style="background-color: #8b1058;" class="global-standing__type">AFSA</span>
+									</div>
+								</a>
+								<a href="#" class="global-standing__slide swiper-slide">
+									<div class="global-standing__name">
+										<img src="img/about-us/global-standing/03.jpg" alt="image">
+									</div>
+									<div class="global-standing__content">
+										<div class="global-standing__label">
+											World allicance of international financial centers (waifc)
+										</div>
+										<span class="global-standing__type">AIFC</span>
+									</div>
+								</a>
 							</div>
 						</div>
 					</div>
@@ -595,116 +611,133 @@
 					</div>
 					<div data-mobile="false" class="ecosystem__slider swiper">
 						<div class="ecosystem__wrapper swiper-wrapper">
-							<div class="ecosystem__slide ecosystem__slide_1 swiper-slide">
-								<div class="ecosystem__label">AIFC Court</div>
-								<p class="ecosystem__descr">
-									The AIFC Authority plays a crucial role within the AIFC, providing administrative support to
-									its entities, shaping
-									development strategy, and actively establishing connections with global financial centers and
-									institutions.
-								</p>
-								<a href="#" class="ecosystem__button"">
-									<svg width=" 31" height="31" viewBox="0 0 31 31" fill="none" xmlns="http://www.w3.org/2000/svg">
-									<path d="M15.5 0C6.93929 0 0 6.94189 0 15.5C0 24.0581 6.93929 31 15.5 31C24.0607 31 31 24.0607 31 15.5C31 6.93929 24.0607 0 15.5 0ZM20.2444 20.3539H10.7582C9.50177 20.3539 8.71712 18.9931 9.34275 17.9061L14.0871 9.68946C14.7154 8.60242 16.2846 8.60242 16.9129 9.68946L21.6572 17.9061C22.2855 18.9931 21.5008 20.3539 20.2444 20.3539Z" fill="white" />
-									</svg>
-								</a>
-							</div>
-							<div class="ecosystem__slide ecosystem__slide_2 swiper-slide">
-								<div class="ecosystem__label">AIFC Authority</div>
-								<p class="ecosystem__descr">
-									The Astana Financial Services Authority (AFSA) is an integrated regulator overseeing
-									financial and market activities, as
-									well as ancillary services within the AIFC Ecosystem. Additionally, it serves as the
-									registration authority for all AIFC
-									participants.
-								</p>
-								<a href="#" class="ecosystem__button"">
-									<svg width=" 31" height="31" viewBox="0 0 31 31" fill="none" xmlns="http://www.w3.org/2000/svg">
-									<path d="M28.5672 9.63501L26.4858 11.7165C24.396 13.8062 24.396 17.1938 26.4858 19.2835L28.5672 21.365C31.8055 18.1267 31.8055 12.8754 28.5672 9.63708V9.63501Z" fill="white" />
-									<path d="M2.42871 9.63489C-0.80957 12.8732 -0.80957 18.1245 2.42871 21.3628L4.51016 19.2813C6.59991 17.1916 6.59991 13.804 4.51016 11.7143L2.42871 9.63281V9.63489Z" fill="white" />
-									<path d="M19.2814 4.51016L21.3629 2.42871C18.1246 -0.80957 12.8733 -0.80957 9.63501 2.42871L11.7165 4.51016C13.8062 6.59991 17.1938 6.59991 19.2835 4.51016H19.2814Z" fill="white" />
-									<path d="M11.7143 26.4897L9.63281 28.5711C12.8711 31.8094 18.1224 31.8094 21.3607 28.5711L19.2792 26.4897C17.1895 24.3999 13.8019 24.3999 11.7122 26.4897H11.7143Z" fill="white" />
-									<path d="M24.8745 9.9889C16.3869 14.0606 16.5466 13.1629 21.7917 4.64844C16.5466 13.1629 15.7816 13.8408 15.6261 4.64844C15.0891 13.8408 14.4071 13.2604 9.46051 4.64844C14.4091 13.2604 14.575 14.1477 6.37771 9.9889C14.2309 14.7447 13.2793 15.064 3.29492 15.3294C13.2793 15.064 14.1272 15.3729 6.37771 20.6698C14.5004 16.0218 14.2599 17.1392 9.46051 26.0103C14.2599 17.1392 15.0311 16.4696 15.6261 26.0103C15.85 16.4696 16.7104 17.2491 21.7917 26.0103C16.7104 17.2491 16.4699 16.1234 24.8745 20.6698C16.8824 15.4082 17.8651 15.0702 27.9573 15.3294C17.8651 15.0702 16.7663 14.7178 24.8745 9.9889Z" fill="white" />
-									</svg>
-								</a>
-							</div>
-							<div class="ecosystem__slide ecosystem__slide_3 swiper-slide">
-								<div class="ecosystem__label">Astana Financial Services Authority</div>
-								<p class="ecosystem__descr">
-									The Astana Financial Services Authority (AFSA) is an integrated regulator overseeing
-									financial and market activities, as
-									well as ancillary services within the AIFC Ecosystem. Additionally, it serves as the
-									registration authority for all AIFC
-									participants.
-								</p>
-								<a href="#" class="ecosystem__button""><svg width=" 30" height="31" viewBox="0 0 30 31" fill="none" xmlns="http://www.w3.org/2000/svg">
-									<path d="M2.63781 12.2346H0V18.7634H2.63781V12.2346Z" fill="white" />
-									<path d="M9.28564 7.08423H6.64783V23.9136H9.28564V7.08423Z" fill="white" />
-									<path d="M15.9334 0H13.2956V31H15.9334V0Z" fill="white" />
-									<path d="M29.231 12.2346H26.5932V18.7634H29.231V12.2346Z" fill="white" />
-									<path d="M22.5832 7.08423H19.9454V23.9136H22.5832V7.08423Z" fill="white" />
-									</svg>
-								</a>
-							</div>
-							<div class="ecosystem__slide ecosystem__slide_4 swiper-slide">
-								<div class="ecosystem__label">International Arbitration Centre</div>
-								<p class="ecosystem__descr">
-									The Astana Financial Services Authority (AFSA) is an integrated regulator overseeing
-									financial and market activities, as
-									well as ancillary services within the AIFC Ecosystem. Additionally, it serves as the
-									registration authority for all AIFC
-									participants.
-								</p>
-								<a href="#" class="ecosystem__button">
-									<svg width="36" height="31" viewBox="0 0 36 31" fill="none" xmlns="http://www.w3.org/2000/svg">
-										<path d="M17.8977 0L0 31H35.7954L17.8977 0ZM17.8977 26.0342C14.7197 26.0342 12.1417 23.4587 12.1417 20.2782C12.1417 17.0977 14.7172 14.5246 17.8977 14.5246C21.0782 14.5246 23.6537 17.1001 23.6537 20.2782C23.6537 23.4562 21.0758 26.0342 17.8977 26.0342Z" fill="white" />
-									</svg>
-								</a>
-							</div>
-							<div class="ecosystem__slide ecosystem__slide_5 swiper-slide">
-								<div class="ecosystem__label">Astana International Exchange</div>
-								<p class="ecosystem__descr">
-									The Astana Financial Services Authority (AFSA) is an integrated regulator overseeing
-									financial and market activities, as
-									well as ancillary services within the AIFC Ecosystem. Additionally, it serves as the
-									registration authority for all AIFC
-									participants.
-								</p>
-								<a href="#" class="ecosystem__button">
-									<svg width="37" height="31" viewBox="0 0 37 31" fill="none" xmlns="http://www.w3.org/2000/svg">
-										<path d="M32.5118 24.2171L23.795 15.5004L32.4317 6.86106C34.0767 5.21599 34.0554 2.484 32.2928 0.961769C30.7332 -0.384199 28.3724 -0.317435 26.8902 1.16206L18.1735 9.87881L9.53684 1.24218C7.89177 -0.402893 5.15978 -0.381528 3.63755 1.38105C2.29158 2.94066 2.35835 5.30145 3.83784 6.78362L12.5573 15.5004L3.91796 24.1397C2.27289 25.7847 2.29425 28.5167 4.05683 30.039C5.61644 31.3849 7.97723 31.3182 9.4594 29.8387L18.1761 21.1219L26.8154 29.7612C28.4605 31.4063 31.1925 31.3849 32.7147 29.625C34.0634 28.0654 33.9939 25.7046 32.5144 24.2224L32.5118 24.2171Z" fill="white" />
-										<path d="M3.42923 16.9507C5.04226 14.8302 2.64675 12.4347 0.528989 14.0504C-1.08404 16.1709 1.31147 18.5664 3.42923 16.9507Z" fill="white" />
-										<path d="M35.8205 14.0505C33.7001 12.4374 31.3046 14.833 32.9203 16.9507C35.0407 18.5637 37.4362 16.1682 35.8205 14.0505Z" fill="white" />
-									</svg>
-								</a>
-							</div>
+							<a href="#" style="background-color:  #09a7e0;" class="ecosystem__slide ecosystem__slide_lightblue swiper-slide">
+								<div class="ecosystem__inner-content">
+									<div class="ecosystem__label">AIFC Court</div>
+									<p class="ecosystem__descr">
+										Fully Independent Judicial System
+										The AIFC Court and IAC represent the region’s independent common law judiciary and
+										international
+										arbitration centre,
+										facilitating the resolution of commercial and civil disputes.
+									</p>
+									<div class="ecosystem__icon">
+										<svg width="31" height="31" viewBox="0 0 31 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path d="M15.5 0C6.93929 0 0 6.94189 0 15.5C0 24.0581 6.93929 31 15.5 31C24.0607 31 31 24.0607 31 15.5C31 6.93929 24.0607 0 15.5 0ZM20.2444 20.3539H10.7582C9.50177 20.3539 8.71712 18.9931 9.34275 17.9061L14.0871 9.68946C14.7154 8.60242 16.2846 8.60242 16.9129 9.68946L21.6572 17.9061C22.2855 18.9931 21.5008 20.3539 20.2444 20.3539Z" fill="white" />
+										</svg>
+									</div>
+								</div>
+							</a>
+							<a href="#" style="background-color: #008aab;" class="ecosystem__slide ecosystem__slide_light-green swiper-slide">
+								<div class="ecosystem__inner-content">
+									<div class="ecosystem__label">AIFC Authority</div>
+									<p class="ecosystem__descr">
+										Special Tax and Currency Regime
+										0% for corporate income tax.
+										No taxes on capital gains.
+										0% individual income tax.
+									</p>
+									<div class="ecosystem__icon">
+										<svg width="31" height="31" viewBox="0 0 31 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path d="M28.5672 9.63501L26.4858 11.7165C24.396 13.8062 24.396 17.1938 26.4858 19.2835L28.5672 21.365C31.8055 18.1267 31.8055 12.8754 28.5672 9.63708V9.63501Z" fill="white" />
+											<path d="M2.42871 9.63489C-0.80957 12.8732 -0.80957 18.1245 2.42871 21.3628L4.51016 19.2813C6.59991 17.1916 6.59991 13.804 4.51016 11.7143L2.42871 9.63281V9.63489Z" fill="white" />
+											<path d="M19.2814 4.51016L21.3629 2.42871C18.1246 -0.80957 12.8733 -0.80957 9.63501 2.42871L11.7165 4.51016C13.8062 6.59991 17.1938 6.59991 19.2835 4.51016H19.2814Z" fill="white" />
+											<path d="M11.7143 26.4897L9.63281 28.5711C12.8711 31.8094 18.1224 31.8094 21.3607 28.5711L19.2792 26.4897C17.1895 24.3999 13.8019 24.3999 11.7122 26.4897H11.7143Z" fill="white" />
+											<path d="M24.8745 9.9889C16.3869 14.0606 16.5466 13.1629 21.7917 4.64844C16.5466 13.1629 15.7816 13.8408 15.6261 4.64844C15.0891 13.8408 14.4071 13.2604 9.46051 4.64844C14.4091 13.2604 14.575 14.1477 6.37771 9.9889C14.2309 14.7447 13.2793 15.064 3.29492 15.3294C13.2793 15.064 14.1272 15.3729 6.37771 20.6698C14.5004 16.0218 14.2599 17.1392 9.46051 26.0103C14.2599 17.1392 15.0311 16.4696 15.6261 26.0103C15.85 16.4696 16.7104 17.2491 21.7917 26.0103C16.7104 17.2491 16.4699 16.1234 24.8745 20.6698C16.8824 15.4082 17.8651 15.0702 27.9573 15.3294C17.8651 15.0702 16.7663 14.7178 24.8745 9.9889Z" fill="white" />
+										</svg>
+									</div>
+								</div>
+							</a>
+							<a href="#" style="background-color: #8b1058;;" class="ecosystem__slide ecosystem__slide_red swiper-slide">
+								<div class="ecosystem__inner-content">
+									<div class="ecosystem__label">Astana Financial Services Authority</div>
+									<p class="ecosystem__descr">
+										Simplified Labour and Visa Regimes
+										Businesses enjoy a simplified labour regime and visa-related procedures that can be
+										obtained
+										on a one
+										stop-shop basis.
+									</p>
+									<div class="ecosystem__icon">
+										<svg width="30" height="31" viewBox="0 0 30 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path d="M2.63781 12.2346H0V18.7634H2.63781V12.2346Z" fill="white" />
+											<path d="M9.28564 7.08423H6.64783V23.9136H9.28564V7.08423Z" fill="white" />
+											<path d="M15.9334 0H13.2956V31H15.9334V0Z" fill="white" />
+											<path d="M29.231 12.2346H26.5932V18.7634H29.231V12.2346Z" fill="white" />
+											<path d="M22.5832 7.08423H19.9454V23.9136H22.5832V7.08423Z" fill="white" />
+										</svg>
+									</div>
+								</div>
+							</a>
+							<a href="#" style="background-color:  #0147b9;;" class="ecosystem__slide ecosystem__slide_blue swiper-slide">
+								<div class="ecosystem__inner-content">
+									<div class="ecosystem__label">International Arbitration Centre</div>
+									<p class="ecosystem__descr">
+										World-class Regulation
+										Founded upon the English Common Law, the AIFC Regulator - AFSA upholds top international
+										standards for
+										regulating
+										financial services, drawing from guidelines endorsed by IOSCO, IAIS, BCBS, IFSB, OECD,
+										FATF,
+										and other
+										reputable
+										organizations.
+									</p>
+									<div class="ecosystem__icon">
+										<svg width="36" height="31" viewBox="0 0 36 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path d="M17.8977 0L0 31H35.7954L17.8977 0ZM17.8977 26.0342C14.7197 26.0342 12.1417 23.4587 12.1417 20.2782C12.1417 17.0977 14.7172 14.5246 17.8977 14.5246C21.0782 14.5246 23.6537 17.1001 23.6537 20.2782C23.6537 23.4562 21.0758 26.0342 17.8977 26.0342Z" fill="white" />
+										</svg>
+									</div>
+								</div>
+							</a>
+							<a href="#" style="background-color: #052757;" class="ecosystem__slide ecosystem__slide_darkblue swiper-slide">
+								<div class="ecosystem__inner-content">
+									<div class="ecosystem__label">Astana International Exchange</div>
+									<p class="ecosystem__descr">
+										International Stock Exchange
+										As a member of the World Federation of Exchanges and aimed at developing trusted capital
+										markets in
+										Central Asia, AIX
+										provides a gateway to capital access and a high-tech trading platform.
+									</p>
+									<div class="ecosystem__icon">
+										<svg width="37" height="31" viewBox="0 0 37 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path d="M32.5118 24.2171L23.795 15.5004L32.4317 6.86106C34.0767 5.21599 34.0554 2.484 32.2928 0.961769C30.7332 -0.384199 28.3724 -0.317435 26.8902 1.16206L18.1735 9.87881L9.53684 1.24218C7.89177 -0.402893 5.15978 -0.381528 3.63755 1.38105C2.29158 2.94066 2.35835 5.30145 3.83784 6.78362L12.5573 15.5004L3.91796 24.1397C2.27289 25.7847 2.29425 28.5167 4.05683 30.039C5.61644 31.3849 7.97723 31.3182 9.4594 29.8387L18.1761 21.1219L26.8154 29.7612C28.4605 31.4063 31.1925 31.3849 32.7147 29.625C34.0634 28.0654 33.9939 25.7046 32.5144 24.2224L32.5118 24.2171Z" fill="white" />
+											<path d="M3.42923 16.9507C5.04226 14.8302 2.64675 12.4347 0.528989 14.0504C-1.08404 16.1709 1.31147 18.5664 3.42923 16.9507Z" fill="white" />
+											<path d="M35.8205 14.0505C33.7001 12.4374 31.3046 14.833 32.9203 16.9507C35.0407 18.5637 37.4362 16.1682 35.8205 14.0505Z" fill="white" />
+										</svg>
+									</div>
+								</div>
+							</a>
+						</div>
+						<div class="ecosystem__action">
+							<a href="#" class="main-link main-link_light">LEARN MORE</a>
 						</div>
 					</div>
-					<div class="ecosystem__action">
-						<a href="#" class="main-link main-link_light">LEARN MORE</a>
-					</div>
-				</div>
 			</section>
 			<section class="subscribe">
-				<div class="subscribe__container container">
-					<h2 class="subscribe__medium-title medium-title">Stay current with our latest insights, news and
-						important updates within one click!</h2>
-					<div class="subscribe__wrapper">
-						<div class="subscribe__choose-filter filter-choose">
-							<a href="#" data-choose="all" class="filter-choose__link">All</a>
-							<a href="#" class="filter-choose__link">News</a>
-							<a href="#" class="filter-choose__link">AIFC Analytics</a>
-							<a href="#" class="filter-choose__link">Info Space</a>
-						</div>
-						<form action="#" class="form-subscribe">
-							<input autocomplete="off" type="text" name="form[]" data-error="Ошибка" placeholder="Email address" class="form-subscribe__input">
-							<div class="form-subscribe__action">
-								<a href="#" class="main-link main-link_border">Subscribe</a>
+				<div data-background-image-wrapper class="subscribe__wrapper-block">
+					<div class="subscribe__container container">
+						<h2 class="subscribe__medium-title medium-title">Stay current with our latest insights, news and
+							important updates within one click!</h2>
+						<div class="subscribe__wrapper">
+							<div class="subscribe__choose-filter filter-choose">
+								<a href="#" data-choose="all" class="filter-choose__link">All</a>
+								<a href="#" class="filter-choose__link">News</a>
+								<a href="#" class="filter-choose__link">AIFC Analytics</a>
+								<a href="#" class="filter-choose__link">Info Space</a>
 							</div>
-						</form>
-						<p>By submitting this form, you agree to our <a href="#">Privacy Policy</a>.</p>
-					</div>
+							<form action="#" class="form-subscribe">
+								<input autocomplete="off" type="text" name="form[]" data-error="Ошибка" placeholder="Email address" class="form-subscribe__input">
+								<div class="form-subscribe__action">
+									<a href="#" class="main-link main-link_border">Subscribe</a>
+								</div>
+							</form>
+							<p>By submitting this form, you agree to our <a href="#"><span>Privacy Policy</span></a>.</p>
+						</div>
 
+					</div>
+					<!-- <img data-background-image src="img/testing/1300x200.jpg" alt="image"> -->
 				</div>
 			</section>
 		</main>
@@ -820,7 +853,7 @@
 		</footer>
 	</div>
 
-	<script src="js/app.min.js?_v=20240426142354"></script>
+	<script src="js/app.min.js?_v=20240530062219"></script>
 	<script>
 		// 2. This code loads the IFrame Player API code asynchronously.
 		var tag = document.createElement('script');

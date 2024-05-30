@@ -1,0 +1,747 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>AIFC - Personal Manager</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.min.css?_v=20240530062219">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap&_v=20240530062219" rel="stylesheet">
+
+
+
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Geologica:wght@100..900&display=swap&_v=20240530062219" rel="stylesheet">
+
+</head>
+
+<body>
+	<div class="wrapper transparent-header" id="top">
+		<header class="header header_transparent" id="header">
+			<a class="header__eye" href="#">
+				<svg width="41" height="27" viewBox="0 0 41 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+					<path d="M27.2459 13.295C27.2459 16.6902 24.35 19.4425 20.7778 19.4425C17.2055 19.4425 14.3097 16.6902 14.3097 13.295C14.3097 9.89984 17.2055 7.14752 20.7778 7.14752C24.35 7.14752 27.2459 9.89984 27.2459 13.295Z" stroke-width="2" />
+					<path d="M39.5556 13.295C39.5556 13.295 31.4946 25.5901 20.7778 25.5901C10.061 25.5901 2 13.295 2 13.295C2 13.295 10.061 1 20.7778 1C31.4946 1 39.5556 13.295 39.5556 13.295Z" stroke-width="2" />
+				</svg>
+			</a>
+
+			<button class="header__burger" id="header-burger" type="button" aria-label="Burger-menu">
+				<span></span>
+				<span></span>
+			</button>
+
+			<div class="header__inner">
+				<a class="header__logo" href="index.html">
+					<img class="header__logo-light" src="img/logo-header-light.svg" width="125" height="40" alt="Logo">
+					<img class="header__logo-dark" src="img/logo-header-dark.svg" width="125" height="40" alt="Logo">
+				</a>
+				<nav class="header__navigation" id="header-navigation">
+					<button class="submenu__back" type="button">
+						<img src="img/icons/icon-arrow-left-menu.svg" alt="Back arrow">
+					</button>
+					<ul class="header__menu">
+						<li class="header__menu-item subitem">
+							<a class="header__menu-link" href="#">About</a>
+							<div class="header__submenu-wrap submenu">
+								<div class="submenu__inner">
+									<a class="submenu__parent-link" href="#">About</a>
+									<div class="submenu__navigation">
+										<ul class="submenu__list">
+											<li class="submenu__item">
+												<a class="submenu__link" href="#">About AIFC</a>
+											</li>
+											<li class="submenu__item">
+												<a class="submenu__link" href="#">History</a>
+											</li>
+											<li class="submenu__item">
+												<a class="submenu__link" href="#">Ecosystem</a>
+											</li>
+											<li class="submenu__item">
+												<a class="submenu__link" href="#">Management</a>
+											</li>
+										</ul>
+
+										<ul class="submenu__list">
+											<li class="submenu__item">
+												<a class="submenu__link" href="#">AIFC Authority</a>
+											</li>
+											<li class="submenu__item">
+												<a class="submenu__link" href="#">AFSA</a>
+											</li>
+											<li class="submenu__item">
+												<a class="submenu__link" href="#">AIFC Court</a>
+											</li>
+											<li class="submenu__item">
+												<a class="submenu__link" href="#">IAC</a>
+											</li>
+											<li class="submenu__item">
+												<a class="submenu__link" href="#">AIX</a>
+											</li>
+										</ul>
+
+										<ul class="submenu__list grey-links">
+											<li class="submenu__item">
+												<a class="submenu__link" href="#">Annual Reports</a>
+											</li>
+										</ul>
+									</div>
+
+									<div class="submenu__bottom">
+										<div class="submenu__bottom-links">
+											<a class="submenu__bottom-link" href="#">FAQ</a>
+											<a class="submenu__bottom-link" href="#">Analytics & Publications</a>
+											<a class="submenu__bottom-link" href="#">Procurements</a>
+											<a class="submenu__bottom-link" href="#">Careers</a>
+											<a class="submenu__bottom-link" href="#">Contact us</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</li>
+						<li class="header__menu-item subitem" tabindex="0">
+							<a class="header__menu-link" href="#">Business</a>
+							<div class="header__submenu-wrap submenu">
+								<div class="submenu__inner">
+									<a class="submenu__parent-link" href="#">Business</a>
+									<div class="submenu__navigation">
+										<ul class="submenu__list">
+											<li class="submenu__item">
+												<a class="submenu__link" href="#">Doing Business in AIFC</a>
+											</li>
+											<li class="submenu__item">
+												<a class="submenu__link" href="#">Financial Business</a>
+											</li>
+											<li class="submenu__item">
+												<a class="submenu__link" href="#">FinTech Lab</a>
+											</li>
+											<li class="submenu__item">
+												<a class="submenu__link" href="#">Professional Services</a>
+											</li>
+											<li class="submenu__item">
+												<a class="submenu__link" href="#">Non-Financial Business</a>
+											</li>
+										</ul>
+
+										<ul class="submenu__list">
+											<li class="submenu__item">
+												<a class="submenu__link" href="#">Why AIFC</a>
+											</li>
+											<li class="submenu__item">
+												<a class="submenu__link" href="#">How to set up a business in AIFC</a>
+											</li>
+											<li class="submenu__item">
+												<a class="submenu__link" href="#">Authorisation</a>
+											</li>
+											<li class="submenu__item">
+												<a class="submenu__link" href="#">For AIFC Participants</a>
+											</li>
+										</ul>
+
+										<ul class="submenu__list grey-links">
+											<li class="submenu__item">
+												<a class="submenu__link" href="#">Public Register</a>
+											</li>
+											<li class="submenu__item">
+												<a class="submenu__link" href="#">Digital Resident</a>
+											</li>
+											<li class="submenu__item">
+												<a class="submenu__link" href="#">Analytics & Publications</a>
+											</li>
+										</ul>
+									</div>
+
+									<div class="submenu__bottom">
+										<div class="submenu__bottom-links">
+											<a class="submenu__bottom-link" href="#">FAQ</a>
+											<a class="submenu__bottom-link" href="#">Legal Framework</a>
+											<a class="submenu__bottom-link" href="#">Handbooks & Downloads</a>
+											<a class="submenu__bottom-link" href="#">Infospace</a>
+											<a class="submenu__bottom-link" href="#">Make an Enquiry</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</li>
+						<li class="header__menu-item subitem">
+							<a class="header__menu-link" href="#">Services</a>
+							<div class="header__submenu-wrap submenu">
+								<div class="submenu__inner">
+									<a class="submenu__parent-link" href="#">Services</a>
+									<div class="submenu__navigation">
+										<ul class="submenu__list">
+											<li class="submenu__item">
+												<a class="submenu__link" href="#">Expat Centre</a>
+											</li>
+											<li class="submenu__item">
+												<a class="submenu__link" href="#">Office & Space rental</a>
+											</li>
+											<li class="submenu__item">
+												<a class="submenu__link" href="#">Sustainability</a>
+											</li>
+											<li class="submenu__item">
+												<a class="submenu__link" href="#">Investment Tax Residency Programme</a>
+											</li>
+										</ul>
+
+										<ul class="submenu__list">
+											<li class="submenu__item">
+												<a class="submenu__link" href="#">Dispute Resolution</a>
+											</li>
+											<li class="submenu__item">
+												<a class="submenu__link" href="#">Securities Registrar</a>
+											</li>
+											<li class="submenu__item">
+												<a class="submenu__link" href="#">AIFC Academy</a>
+											</li>
+										</ul>
+
+										<ul class="submenu__list grey-links">
+											<li class="submenu__item">
+												<a class="submenu__link" href="#">Portal Login</a>
+											</li>
+										</ul>
+									</div>
+
+									<div class="submenu__bottom">
+										<div class="submenu__bottom-links">
+											<a class="submenu__bottom-link" href="#">FAQ</a>
+											<a class="submenu__bottom-link" href="#">Infospace</a>
+											<a class="submenu__bottom-link" href="#">Handbooks & Downloads</a>
+											<a class="submenu__bottom-link" href="#">Make an Enquiry</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</li>
+						<li class="header__menu-item subitem">
+							<a class="header__menu-link" href="#">Legislation</a>
+							<div class="header__submenu-wrap submenu">
+								<div class="submenu__inner">
+									<a class="submenu__parent-link" href="#">Legislation</a>
+									<div class="submenu__navigation">
+										<ul class="submenu__list">
+											<li class="submenu__item">
+												<a class="submenu__link" href="#">Legal Framework</a>
+											</li>
+										</ul>
+
+										<ul class="submenu__list grey-links">
+											<li class="submenu__item">
+												<a class="submenu__link" href="#">Legal Services Board</a>
+											</li>
+											<li class="submenu__item">
+												<a class="submenu__link" href="#">Legal Advisory Council</a>
+											</li>
+										</ul>
+									</div>
+
+									<div class="submenu__bottom">
+										<div class="submenu__bottom-links">
+											<a class="submenu__bottom-link" href="#">FAQ</a>
+											<a class="submenu__bottom-link" href="#">Handbooks & Downloads</a>
+											<a class="submenu__bottom-link" href="#">Analytics & Publications</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</li>
+						<li class="header__menu-item subitem">
+							<a class="header__menu-link" href="#">Operating in the AIFC</a>
+							<div class="header__submenu-wrap submenu">
+								<div class="submenu__inner">
+									<a class="submenu__parent-link" href="#">Operating in the AIFC</a>
+									<div class="submenu__navigation">
+										<ul class="submenu__list">
+											<li class="submenu__item">
+												<a class="submenu__link" href="#">Operating in the AIFC</a>
+											</li>
+											<li class="submenu__item">
+												<a class="submenu__link" href="#">Reporting</a>
+											</li>
+											<li class="submenu__item">
+												<a class="submenu__link" href="#">Requests</a>
+											</li>
+											<li class="submenu__item">
+												<a class="submenu__link" href="#">Notifications</a>
+											</li>
+										</ul>
+									</div>
+
+									<div class="submenu__bottom">
+										<div class="submenu__bottom-links">
+											<a class="submenu__bottom-link" href="#">FAQ</a>
+											<a class="submenu__bottom-link" href="#">Legal Framework</a>
+											<a class="submenu__bottom-link" href="#">Handbooks & Downloads</a>
+											<a class="submenu__bottom-link" href="#">Infospace</a>
+											<a class="submenu__bottom-link" href="#">Digital Resident</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</li>
+						<li class="header__menu-item subitem">
+							<a class="header__menu-link" href="#">Media</a>
+							<div class="header__submenu-wrap submenu">
+								<div class="submenu__inner">
+									<a class="submenu__parent-link" href="#">Media</a>
+									<div class="submenu__navigation">
+										<ul class="submenu__list">
+											<li class="submenu__item">
+												<a class="submenu__link" href="#">News</a>
+											</li>
+											<li class="submenu__item">
+												<a class="submenu__link" href="#">Events</a>
+											</li>
+											<li class="submenu__item">
+												<a class="submenu__link" href="#">InfoSpace</a>
+											</li>
+										</ul>
+
+										<ul class="submenu__list grey-links">
+											<li class="submenu__item">
+												<a class="submenu__link" href="#">Handbooks & Documents</a>
+											</li>
+											<li class="submenu__item">
+												<a class="submenu__link" href="#">Gallery</a>
+											</li>
+										</ul>
+									</div>
+
+									<div class="submenu__bottom">
+										<div class="submenu__bottom-links">
+											<a class="submenu__bottom-link" href="#">News Subscription</a>
+											<a class="submenu__bottom-link" href="#">Analytics & Publications</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</li>
+					</ul>
+				</nav>
+				<div class="header__actions-wrap">
+					<a class="header__user-button" href="#">
+						<svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path d="M6.24385 24.4337C6.65975 20.5174 9.97351 17.4667 14 17.4667C18.0266 17.4667 21.3403 20.5176 21.756 24.4338M27 14C27 21.1797 21.1797 27 14 27C6.82017 27 1 21.1797 1 14C1 6.82017 6.82017 1 14 1C21.1797 1 27 6.82017 27 14ZM19.2 12.2666C19.2 15.1385 16.872 17.4666 14 17.4666C11.1279 17.4666 8.79995 15.1385 8.79995 12.2666C8.79995 9.39482 11.1279 7.06668 14 7.06668C16.872 7.06668 19.2 9.39482 19.2 12.2666Z" stroke-width="2" />
+						</svg>
+					</a>
+					<a class="header__search-button" href="#">
+						<svg width="28" height="29" viewBox="0 0 28 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path d="M9.37657 19.0844L1 27.4609M27 11.7957C27 6.08796 22.373 1.46094 16.6653 1.46094C10.9575 1.46094 6.33054 6.08796 6.33054 11.7957C6.33054 17.5034 10.9575 22.1304 16.6653 22.1304C22.373 22.1304 27 17.5034 27 11.7957Z" stroke-width="2" />
+						</svg>
+					</a>
+				</div>
+			</div>
+
+			<div class="header__languages">
+				<a class="header__languages-button" href="#">kz</a>
+				<a class="header__languages-button" href="#">rU</a>
+				<a class="header__languages-button active" href="#">en</a>
+			</div>
+		</header>
+		<main class="page">
+			<section class="header-block header-block_careers">
+				<div class="container">
+					<div class="breadcrumbs breadcrumbs_offset-top">
+						<ul class="breadcrumbs__list">
+							<li class="breadcrumbs__list-item">
+								<a class="breadcrumbs__list-link hover-element" href="index.html">Home</a>
+							</li>
+							<li class="breadcrumbs__list-item">
+								<a class="breadcrumbs__list-link hover-element" href="business.html">Services</a>
+							</li>
+							<li class="breadcrumbs__list-item">
+								<a class="breadcrumbs__list-link hover-element" href="legal-framework.html">Sustainability
+									Services</a>
+							</li>
+							<li class="breadcrumbs__list-item">
+								<a class="breadcrumbs__list-link hover-element" href="financial-services.html">Personal
+									Manager</a>
+							</li>
+						</ul>
+					</div>
+					<h1 class="header-block__big-title big-title">Personal Manager</h1>
+					<p class="header-block__description">
+						We are pleased to introduce our exclusive Personal Manager service, designed to enhance your
+						experience with any Expat
+						Center service. The service is provided on a turnkey basis to save a time and minimize client’s
+						involvement into the
+						process. All the procedures on completing the required documents for registration, obtaining
+						Kazakhstan visa, IIN, EDS,
+						other government and soft-landing services will be arranged by the Personal Manager.
+					</p>
+				</div>
+			</section>
+			<section class="personal-manager">
+				<div class="personal-manager__container container">
+					<p class="personal-manager__text">
+						The Personal Manager service is a comprehensive solution that proves indispensable, particularly for
+						individuals
+						seeking:
+					</p>
+					<ul class="personal-manager__steps">
+						<li>
+							Work Visa (C3, including dependent)
+						</li>
+						<li>
+							Letter of Invitation (LOI)
+						</li>
+						<li>
+							Investor Visa (A5, including dependent)
+						</li>
+						<li>
+							Temporary Residence Permit (including dependent)
+						</li>
+					</ul>
+					<p class="personal-manager__text">
+						<span>*</span> For these specific visa categories, the Personal Manager service is not just an option;
+						it is a mandatory component of
+						the process.
+					</p>
+				</div>
+			</section>
+			<section class="what what_offset-bottom">
+				<div style="background-color: #466d5d" class="what__wrapper">
+					<div class="what__container container">
+						<h2 class="what__medium-title medium-title medium-title_white">What does our Personal Manager service
+							entail?</h2>
+						<div data-spollers class="spollers-faq">
+							<div class="spollers-faq__item">
+								<button type="button" data-spoller class="spollers-faq__title">
+									<span>Full Consultation</span>
+									<span class="spollers-faq__icon">
+										<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path d="M0 12H24M12 24V0" stroke="white" stroke-width="0.8" />
+										</svg>
+										<svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path d="M0.485281 17.4853L17.4558 0.514719M17.4558 17.4853L0.485281 0.514719" stroke="white" stroke-width="0.8" />
+										</svg>
+									</span>
+								</button>
+								<div class="spollers-faq__body">
+									Our expert advisors provide comprehensive consultations, ensuring you are well-informed about
+									all aspects of migration
+									laws relevant to your visa application.
+								</div>
+							</div>
+							<div class="spollers-faq__item">
+								<button type="button" data-spoller class="spollers-faq__title">
+									<span>Clarification of Migration Laws</span>
+									<span class="spollers-faq__icon">
+										<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path d="M0 12H24M12 24V0" stroke="white" stroke-width="0.8" />
+										</svg>
+										<svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path d="M0.485281 17.4853L17.4558 0.514719M17.4558 17.4853L0.485281 0.514719" stroke="white" stroke-width="0.8" />
+										</svg>
+									</span>
+								</button>
+								<div class="spollers-faq__body">The AIFC comprises several bodies and organizations that form
+									the
+									AIFC Ecosystem. These entities have distinct functions
+									but work collectively towards achieving the Centre's strategic goals.</div>
+							</div>
+							<div class="spollers-faq__item">
+								<button type="button" data-spoller class="spollers-faq__title">
+									<span>Document Collection and Upload</span>
+									<span class="spollers-faq__icon">
+										<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path d="M0 12H24M12 24V0" stroke="white" stroke-width="0.8" />
+										</svg>
+										<svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path d="M0.485281 17.4853L17.4558 0.514719M17.4558 17.4853L0.485281 0.514719" stroke="white" stroke-width="0.8" />
+										</svg>
+									</span>
+								</button>
+								<div class="spollers-faq__body">The AIFC comprises several bodies and organizations that form
+									the
+									AIFC Ecosystem. These entities have distinct functions
+									but work collectively towards achieving the Centre's strategic goals.</div>
+							</div>
+							<div class="spollers-faq__item">
+								<button type="button" data-spoller class="spollers-faq__title">
+									<span>Document Delivery Service</span>
+									<span class="spollers-faq__icon">
+										<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path d="M0 12H24M12 24V0" stroke="white" stroke-width="0.8" />
+										</svg>
+										<svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path d="M0.485281 17.4853L17.4558 0.514719M17.4558 17.4853L0.485281 0.514719" stroke="white" stroke-width="0.8" />
+										</svg>
+									</span>
+								</button>
+								<div class="spollers-faq__body">The AIFC comprises several bodies and organizations that form
+									the
+									AIFC Ecosystem. These entities have distinct functions
+									but work collectively towards achieving the Centre's strategic goals.</div>
+							</div>
+							<div class="spollers-faq__item">
+								<button type="button" data-spoller class="spollers-faq__title">
+									<span>Complimentary Loyalty Club card</span>
+									<span class="spollers-faq__icon">
+										<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path d="M0 12H24M12 24V0" stroke="white" stroke-width="0.8" />
+										</svg>
+										<svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path d="M0.485281 17.4853L17.4558 0.514719M17.4558 17.4853L0.485281 0.514719" stroke="white" stroke-width="0.8" />
+										</svg>
+									</span>
+								</button>
+								<div class="spollers-faq__body">The AIFC comprises several bodies and organizations that form
+									the
+									AIFC Ecosystem. These entities have distinct functions
+									but work collectively towards achieving the Centre's strategic goals.</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<div class="portal-block">
+				<div class="portal-block__wrapper">
+					<div class="portal-block__container container">
+						<div class="portal-block__title">
+							Experience a simplified visa acquisition process with AIFC Expat Centre's Personal Manager service.
+							You can apply for
+							the service through the AIFC Portal.
+						</div>
+						<div class="portal-block__actions">
+							<a href="#" class="main-link main-link_border">Go to portal</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<section class="documents-block">
+				<div class="documents-block__container container">
+					<h2 class="documents-block__medium-title medium-title">Handbooks and documents</h2>
+					<div class="documents-block__items">
+						<a class="document-download document-download_color document-download_pdf" href="./documents/test-document.pdf" download="">
+							<span class="document-download__file-type">pdf</span>
+							<div class="document-download__info">
+								<p>The guidelines for the application form submission</p>
+								<i>875 kb</i>
+								<span>Download</span>
+							</div>
+						</a>
+						<a class="document-download document-download_color document-download_xlsx" href="./documents/test-document.pdf" download="">
+							<span class="document-download__file-type">XLSX</span>
+							<div class="document-download__info">
+								<p>The price list for the Personal Manager service</p>
+								<i>875 kb</i>
+								<span>Download</span>
+							</div>
+						</a>
+					</div>
+					<form action="#" class="subscribe__form form-subscribe form-subscribe_doc">
+						<input autocomplete="off" type="text" name="form[]" data-error="Ошибка" placeholder="Email address" class="form-subscribe__input">
+						<div class="form-subscribe__action">
+							<a href="#" class="main-link main-link_border">Get document pack</a>
+						</div>
+					</form>
+				</div>
+			</section>
+			<section class="contact-information">
+				<div data-background-image-wrapper style="background-color: #e8e8e8" class="contact-information__container container">
+					<div class="contact-information__wrapper">
+						<h2 class="contact-information__medium-title medium-title">Contact information</h2>
+						<div>
+							<p class="contact-information__text">
+								If you have any further clarifications or queries on this matter, please do not hesitate to
+								contact us:
+							</p>
+							<div class="contact-information__info">
+								<ul>
+									<li>
+										<a href="mailto:aifcacademy@aifc.kz">aifcacademy@aifc.kz</a>
+									</li>
+								</ul>
+								<ul>
+									<li>
+										<a href="tel:+77172647340">+7 7172 64 72 41</a>
+									</li>
+									<li>
+										<a href="tel:+77172647340">+7 7172 64 73 40</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<img data-background-image src="img/decors/contact-information-decor.svg" alt="decor">
+				</div>
+			</section>
+		</main>
+		<!-- Footer -->
+		<footer class="footer">
+			<div class="container">
+				<!-- Scroll-top button -->
+				<a class="scroll-top scroll-link" href="top" aria-label="Scroll to top">
+					<svg width="25" height="26" viewBox="0 0 25 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<path d="M14.29 6.53593L14.29 25.5619L11.1643 25.5619L11.1632 6.53703L2.77979 14.9204L0.569267 12.7099L12.7271 0.552052L24.885 12.7099L22.6745 14.9204L14.29 6.53593Z" />
+					</svg>
+				</a>
+				<div class="footer__navigation-wrap">
+					<a class="footer__logo" href="index.html">
+						<img src="img/logo-footer.svg" width="227" height="71" alt="Logo">
+					</a>
+					<nav class="footer__navigation">
+						<ul class="footer__menu">
+							<li class="footer__menu-item">
+								<a class="footer__menu-link" href="#">Our Policies</a>
+							</li>
+							<li class="footer__menu-item">
+								<a class="footer__menu-link" href="#">Public Register</a>
+							</li>
+							<li class="footer__menu-item">
+								<a class="footer__menu-link" href="#">Media</a>
+							</li>
+							<li class="footer__menu-item">
+								<a class="footer__menu-link" href="#">FAQ</a>
+							</li>
+							<li class="footer__menu-item">
+								<a class="footer__menu-link" href="#">Make an Enquiry</a>
+							</li>
+							<li class="footer__menu-item">
+								<a class="footer__menu-link" href="#">Contact Us</a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+
+				<div class="footer__inner">
+					<div class="footer__info">
+						<p class="footer__info-text">Stay current with our latest insights, news and important updates within one
+							click!</p>
+						<form class="footer__subscribe-form subscribe-form" action="/">
+							<input class="subscribe-form__input" type="email" name="subscribe-email" placeholder="Enter your e-mail address">
+							<button class="subscribe-form__submit main-link" type="submit">submit</button>
+						</form>
+					</div>
+
+					<div class="footer__media">
+						<ul class="footer__socials socials-block">
+							<li class="socials-block__item">
+								<a class="socials-block__link li-b" href="#" target="_blank">
+									<svg width="34" height="36" viewBox="0 0 34 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M10.9228 23.171V8.16855H6.27586V23.171H10.9233H10.9228ZM8.60032 6.12057C10.2205 6.12057 11.2291 4.96856 11.2291 3.52887C11.1988 2.05638 10.2205 0.936523 8.63113 0.936523C7.04069 0.936523 6.00195 2.05638 6.00195 3.52874C6.00195 4.96843 7.01024 6.12044 8.56987 6.12044H8.59995L8.60032 6.12057ZM13.495 23.171H18.1416V14.7939C18.1416 14.3461 18.1719 13.8971 18.2947 13.5773C18.6305 12.6811 19.395 11.7533 20.6791 11.7533C22.3601 11.7533 23.033 13.129 23.033 15.146V23.171H27.6795V14.569C27.6795 9.96113 25.3873 7.81683 22.33 7.81683C19.8235 7.81683 18.7227 9.32017 18.111 10.3441H18.142V8.16907H13.4952C13.5559 9.57648 13.4949 23.1715 13.4949 23.1715L13.495 23.171Z" />
+										<path d="M0.751953 27.2256H2.45117C3.18815 27.2256 3.74414 27.3324 4.11914 27.5459C4.49414 27.7594 4.68164 28.1279 4.68164 28.6514C4.68164 28.8701 4.64258 29.068 4.56445 29.2451C4.48893 29.4196 4.37826 29.5641 4.23242 29.6787C4.08659 29.7907 3.9069 29.8662 3.69336 29.9053V29.9443C3.91471 29.9834 4.11133 30.0524 4.2832 30.1514C4.45768 30.2503 4.5944 30.3923 4.69336 30.5771C4.79492 30.762 4.8457 31.0016 4.8457 31.2959C4.8457 31.6449 4.76237 31.9417 4.5957 32.1865C4.43164 32.4313 4.19596 32.6175 3.88867 32.7451C3.58398 32.8727 3.22201 32.9365 2.80273 32.9365H0.751953V27.2256ZM1.68945 29.5811H2.58789C3.01237 29.5811 3.30664 29.512 3.4707 29.374C3.63477 29.236 3.7168 29.0342 3.7168 28.7686C3.7168 28.4977 3.61914 28.3024 3.42383 28.1826C3.23112 28.0628 2.92383 28.0029 2.50195 28.0029H1.68945V29.5811ZM1.68945 30.3389V32.1514H2.67773C3.11523 32.1514 3.42253 32.0667 3.59961 31.8975C3.77669 31.7282 3.86523 31.499 3.86523 31.21C3.86523 31.0329 3.82487 30.8792 3.74414 30.749C3.66602 30.6188 3.53711 30.5186 3.35742 30.4482C3.17773 30.3753 2.93555 30.3389 2.63086 30.3389H1.68945ZM9.70117 28.6123V32.9365H8.97852L8.85352 32.3545H8.80273C8.71159 32.5029 8.5957 32.6266 8.45508 32.7256C8.31445 32.8219 8.1582 32.8936 7.98633 32.9404C7.81445 32.9899 7.63346 33.0146 7.44336 33.0146C7.11784 33.0146 6.83919 32.96 6.60742 32.8506C6.37826 32.7386 6.20247 32.5667 6.08008 32.335C5.95768 32.1032 5.89648 31.8037 5.89648 31.4365V28.6123H6.81836V31.2646C6.81836 31.6006 6.88607 31.8519 7.02148 32.0186C7.15951 32.1852 7.37305 32.2686 7.66211 32.2686C7.94076 32.2686 8.16211 32.2113 8.32617 32.0967C8.49023 31.9821 8.60612 31.8128 8.67383 31.5889C8.74414 31.3649 8.7793 31.0902 8.7793 30.7646V28.6123H9.70117ZM13.9238 31.7021C13.9238 31.986 13.8548 32.2256 13.7168 32.4209C13.5788 32.6162 13.377 32.7646 13.1113 32.8662C12.8483 32.9652 12.5254 33.0146 12.1426 33.0146C11.8405 33.0146 11.5801 32.9925 11.3613 32.9482C11.1452 32.9066 10.9408 32.8415 10.748 32.7529V31.96C10.9538 32.0563 11.1842 32.1396 11.4395 32.21C11.6973 32.2803 11.9408 32.3154 12.1699 32.3154C12.472 32.3154 12.6895 32.2686 12.8223 32.1748C12.9551 32.0785 13.0215 31.9508 13.0215 31.792C13.0215 31.6982 12.9941 31.6149 12.9395 31.542C12.8874 31.4665 12.7884 31.3896 12.6426 31.3115C12.4993 31.2308 12.2884 31.1344 12.0098 31.0225C11.7363 30.9131 11.5059 30.8037 11.3184 30.6943C11.1309 30.585 10.9889 30.4535 10.8926 30.2998C10.7962 30.1436 10.748 29.9443 10.748 29.7021C10.748 29.3193 10.8991 29.029 11.2012 28.8311C11.5059 28.6305 11.9082 28.5303 12.4082 28.5303C12.6738 28.5303 12.9238 28.5576 13.1582 28.6123C13.3952 28.6644 13.627 28.7412 13.8535 28.8428L13.5645 29.5342C13.3691 29.4482 13.1725 29.3779 12.9746 29.3232C12.7793 29.266 12.5801 29.2373 12.377 29.2373C12.14 29.2373 11.959 29.2738 11.834 29.3467C11.7116 29.4196 11.6504 29.5238 11.6504 29.6592C11.6504 29.7607 11.6803 29.8467 11.7402 29.917C11.8001 29.9873 11.903 30.0576 12.0488 30.1279C12.1973 30.1982 12.403 30.2855 12.666 30.3896C12.9238 30.4886 13.1465 30.5928 13.334 30.7021C13.5241 30.8089 13.6699 30.9404 13.7715 31.0967C13.873 31.2529 13.9238 31.4548 13.9238 31.7021ZM15.834 28.6123V32.9365H14.916V28.6123H15.834ZM15.3809 26.9561C15.5215 26.9561 15.6426 26.9938 15.7441 27.0693C15.8483 27.1449 15.9004 27.2751 15.9004 27.46C15.9004 27.6423 15.8483 27.7725 15.7441 27.8506C15.6426 27.9261 15.5215 27.9639 15.3809 27.9639C15.235 27.9639 15.1113 27.9261 15.0098 27.8506C14.9108 27.7725 14.8613 27.6423 14.8613 27.46C14.8613 27.2751 14.9108 27.1449 15.0098 27.0693C15.1113 26.9938 15.235 26.9561 15.3809 26.9561ZM19.4043 28.5303C19.8913 28.5303 20.2702 28.6566 20.541 28.9092C20.8145 29.1592 20.9512 29.5615 20.9512 30.1162V32.9365H20.0332V30.2881C20.0332 29.9521 19.9642 29.7008 19.8262 29.5342C19.6882 29.3649 19.4746 29.2803 19.1855 29.2803C18.7663 29.2803 18.4746 29.4092 18.3105 29.667C18.1491 29.9248 18.0684 30.2985 18.0684 30.7881V32.9365H17.1504V28.6123H17.8652L17.9941 29.1982H18.0449C18.1387 29.0472 18.2546 28.9235 18.3926 28.8271C18.5332 28.7282 18.6895 28.654 18.8613 28.6045C19.0358 28.555 19.2168 28.5303 19.4043 28.5303ZM23.959 28.5303C24.3444 28.5303 24.6751 28.6097 24.9512 28.7686C25.2272 28.9274 25.4395 29.1527 25.5879 29.4443C25.7363 29.736 25.8105 30.085 25.8105 30.4912V30.9834H22.9238C22.9342 31.4027 23.0462 31.7256 23.2598 31.9521C23.4759 32.1787 23.778 32.292 24.166 32.292C24.4421 32.292 24.6895 32.266 24.9082 32.2139C25.1296 32.1592 25.3574 32.0798 25.5918 31.9756V32.7217C25.3757 32.8232 25.1556 32.8975 24.9316 32.9443C24.7077 32.9912 24.4395 33.0146 24.127 33.0146C23.7025 33.0146 23.3288 32.9326 23.0059 32.7686C22.6855 32.6019 22.4342 32.3545 22.252 32.0264C22.0723 31.6982 21.9824 31.2907 21.9824 30.8037C21.9824 30.3193 22.0645 29.9079 22.2285 29.5693C22.3926 29.2308 22.623 28.973 22.9199 28.7959C23.2168 28.6188 23.5632 28.5303 23.959 28.5303ZM23.959 29.2217C23.6699 29.2217 23.4355 29.3154 23.2559 29.5029C23.0788 29.6904 22.9746 29.9652 22.9434 30.3271H24.9121C24.9095 30.111 24.873 29.9196 24.8027 29.7529C24.735 29.5863 24.6309 29.4561 24.4902 29.3623C24.3522 29.2686 24.1751 29.2217 23.959 29.2217ZM29.752 31.7021C29.752 31.986 29.6829 32.2256 29.5449 32.4209C29.4069 32.6162 29.2051 32.7646 28.9395 32.8662C28.6764 32.9652 28.3535 33.0146 27.9707 33.0146C27.6686 33.0146 27.4082 32.9925 27.1895 32.9482C26.9733 32.9066 26.7689 32.8415 26.5762 32.7529V31.96C26.7819 32.0563 27.0124 32.1396 27.2676 32.21C27.5254 32.2803 27.7689 32.3154 27.998 32.3154C28.3001 32.3154 28.5176 32.2686 28.6504 32.1748C28.7832 32.0785 28.8496 31.9508 28.8496 31.792C28.8496 31.6982 28.8223 31.6149 28.7676 31.542C28.7155 31.4665 28.6165 31.3896 28.4707 31.3115C28.3275 31.2308 28.1165 31.1344 27.8379 31.0225C27.5645 30.9131 27.334 30.8037 27.1465 30.6943C26.959 30.585 26.8171 30.4535 26.7207 30.2998C26.6243 30.1436 26.5762 29.9443 26.5762 29.7021C26.5762 29.3193 26.7272 29.029 27.0293 28.8311C27.334 28.6305 27.7363 28.5303 28.2363 28.5303C28.502 28.5303 28.752 28.5576 28.9863 28.6123C29.2233 28.6644 29.4551 28.7412 29.6816 28.8428L29.3926 29.5342C29.1973 29.4482 29.0007 29.3779 28.8027 29.3232C28.6074 29.266 28.4082 29.2373 28.2051 29.2373C27.9681 29.2373 27.7871 29.2738 27.6621 29.3467C27.5397 29.4196 27.4785 29.5238 27.4785 29.6592C27.4785 29.7607 27.5085 29.8467 27.5684 29.917C27.6283 29.9873 27.7311 30.0576 27.877 30.1279C28.0254 30.1982 28.2311 30.2855 28.4941 30.3896C28.752 30.4886 28.9746 30.5928 29.1621 30.7021C29.3522 30.8089 29.498 30.9404 29.5996 31.0967C29.7012 31.2529 29.752 31.4548 29.752 31.7021ZM33.6504 31.7021C33.6504 31.986 33.5814 32.2256 33.4434 32.4209C33.3053 32.6162 33.1035 32.7646 32.8379 32.8662C32.5749 32.9652 32.252 33.0146 31.8691 33.0146C31.5671 33.0146 31.3066 32.9925 31.0879 32.9482C30.8717 32.9066 30.6673 32.8415 30.4746 32.7529V31.96C30.6803 32.0563 30.9108 32.1396 31.166 32.21C31.4238 32.2803 31.6673 32.3154 31.8965 32.3154C32.1986 32.3154 32.416 32.2686 32.5488 32.1748C32.6816 32.0785 32.748 31.9508 32.748 31.792C32.748 31.6982 32.7207 31.6149 32.666 31.542C32.6139 31.4665 32.515 31.3896 32.3691 31.3115C32.2259 31.2308 32.015 31.1344 31.7363 31.0225C31.4629 30.9131 31.2324 30.8037 31.0449 30.6943C30.8574 30.585 30.7155 30.4535 30.6191 30.2998C30.5228 30.1436 30.4746 29.9443 30.4746 29.7021C30.4746 29.3193 30.6257 29.029 30.9277 28.8311C31.2324 28.6305 31.6348 28.5303 32.1348 28.5303C32.4004 28.5303 32.6504 28.5576 32.8848 28.6123C33.1217 28.6644 33.3535 28.7412 33.5801 28.8428L33.291 29.5342C33.0957 29.4482 32.8991 29.3779 32.7012 29.3232C32.5059 29.266 32.3066 29.2373 32.1035 29.2373C31.8665 29.2373 31.6855 29.2738 31.5605 29.3467C31.4382 29.4196 31.377 29.5238 31.377 29.6592C31.377 29.7607 31.4069 29.8467 31.4668 29.917C31.5267 29.9873 31.6296 30.0576 31.7754 30.1279C31.9238 30.1982 32.1296 30.2855 32.3926 30.3896C32.6504 30.4886 32.873 30.5928 33.0605 30.7021C33.2507 30.8089 33.3965 30.9404 33.498 31.0967C33.5996 31.2529 33.6504 31.4548 33.6504 31.7021Z" />
+									</svg>
+								</a>
+							</li>
+							<li class="socials-block__item">
+								<a class="socials-block__link inst" href="#" target="_blank">
+									<svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M9.89145 14.7837C9.89145 12.0823 12.0808 9.89184 14.7823 9.89184C17.4838 9.89184 19.6743 12.0823 19.6743 14.7837C19.6743 17.485 17.4838 19.6755 14.7823 19.6755C12.0808 19.6755 9.89145 17.485 9.89145 14.7837ZM7.24692 14.7837C7.24692 18.9453 10.6205 22.3187 14.7823 22.3187C18.9441 22.3187 22.3177 18.9453 22.3177 14.7837C22.3177 10.622 18.9441 7.24859 14.7823 7.24859C10.6205 7.24859 7.24692 10.622 7.24692 14.7837ZM20.855 6.94982C20.8549 7.2981 20.958 7.6386 21.1514 7.92825C21.3448 8.21791 21.6197 8.44372 21.9414 8.57713C22.2632 8.71054 22.6172 8.74555 22.9588 8.67774C23.3005 8.60993 23.6143 8.44235 23.8607 8.19618C24.1071 7.95001 24.2749 7.63631 24.343 7.29476C24.4111 6.9532 24.3763 6.59912 24.2432 6.27731C24.11 5.95549 23.8844 5.68038 23.5949 5.48677C23.3054 5.29316 22.965 5.18975 22.6167 5.18961H22.616C22.1491 5.18983 21.7014 5.37533 21.3713 5.70536C21.0411 6.0354 20.8554 6.48299 20.855 6.94982ZM8.85365 26.7282C7.4229 26.663 6.64525 26.4247 6.12846 26.2234C5.44332 25.9567 4.95447 25.639 4.4405 25.1257C3.92653 24.6125 3.60838 24.1241 3.34282 23.439C3.14136 22.9225 2.90304 22.1446 2.838 20.714C2.76686 19.1672 2.75266 18.7025 2.75266 14.7838C2.75266 10.865 2.76803 10.4017 2.838 8.85361C2.90316 7.42292 3.14324 6.64659 3.34282 6.12853C3.60955 5.44342 3.92723 4.95459 4.4405 4.44064C4.95377 3.92669 5.44215 3.60855 6.12846 3.343C6.64502 3.14155 7.4229 2.90324 8.85365 2.83821C10.4005 2.76706 10.8652 2.75286 14.7823 2.75286C18.6994 2.75286 19.1646 2.76824 20.7127 2.83821C22.1434 2.90336 22.9198 3.14343 23.4379 3.343C24.123 3.60855 24.6119 3.92739 25.1259 4.44064C25.6398 4.95389 25.9568 5.44342 26.2235 6.12853C26.425 6.64507 26.6633 7.42292 26.7283 8.85361C26.7995 10.4017 26.8137 10.865 26.8137 14.7838C26.8137 18.7025 26.7995 19.1659 26.7283 20.714C26.6632 22.1446 26.4237 22.9223 26.2235 23.439C25.9568 24.1241 25.6391 24.613 25.1259 25.1257C24.6126 25.6385 24.123 25.9567 23.4379 26.2234C22.9213 26.4248 22.1434 26.6631 20.7127 26.7282C19.1659 26.7993 18.7012 26.8135 14.7823 26.8135C10.8634 26.8135 10.4 26.7993 8.85365 26.7282ZM8.73214 0.198242C7.16991 0.269383 6.1024 0.517085 5.17014 0.879834C4.20465 1.25444 3.38731 1.757 2.57057 2.57242C1.75383 3.38785 1.25253 4.20644 0.877911 5.17189C0.515149 6.1047 0.267437 7.17158 0.196293 8.73375C0.123975 10.2984 0.107422 10.7986 0.107422 14.7837C0.107422 18.7687 0.123975 19.2689 0.196293 20.8336C0.267437 22.3959 0.515149 23.4626 0.877911 24.3954C1.25253 25.3603 1.75394 26.1798 2.57057 26.9949C3.3872 27.81 4.20465 28.3118 5.17014 28.6875C6.10416 29.0502 7.16991 29.2979 8.73214 29.3691C10.2977 29.4402 10.7971 29.4579 14.7823 29.4579C18.7675 29.4579 19.2678 29.4414 20.8325 29.3691C22.3948 29.2979 23.4616 29.0502 24.3945 28.6875C25.3594 28.3118 26.1773 27.8103 26.994 26.9949C27.8108 26.1795 28.311 25.3603 28.6867 24.3954C29.0494 23.4626 29.2983 22.3957 29.3683 20.8336C29.4394 19.2678 29.456 18.7687 29.456 14.7837C29.456 10.7986 29.4394 10.2984 29.3683 8.73375C29.2972 7.17146 29.0494 6.10411 28.6867 5.17189C28.311 4.20702 27.8095 3.38914 26.994 2.57242C26.1786 1.75571 25.3594 1.25444 24.3956 0.879834C23.4616 0.517085 22.3947 0.268209 20.8336 0.198242C19.2689 0.127102 18.7687 0.109375 14.7835 0.109375C10.7982 0.109375 10.2977 0.125928 8.73214 0.198242Z" />
+										<path d="M9.89145 14.7837C9.89145 12.0823 12.0808 9.89184 14.7823 9.89184C17.4838 9.89184 19.6743 12.0823 19.6743 14.7837C19.6743 17.485 17.4838 19.6755 14.7823 19.6755C12.0808 19.6755 9.89145 17.485 9.89145 14.7837ZM7.24692 14.7837C7.24692 18.9453 10.6205 22.3187 14.7823 22.3187C18.9441 22.3187 22.3177 18.9453 22.3177 14.7837C22.3177 10.622 18.9441 7.24859 14.7823 7.24859C10.6205 7.24859 7.24692 10.622 7.24692 14.7837ZM20.855 6.94982C20.8549 7.2981 20.958 7.6386 21.1514 7.92825C21.3448 8.21791 21.6197 8.44372 21.9414 8.57713C22.2632 8.71054 22.6172 8.74555 22.9588 8.67774C23.3005 8.60993 23.6143 8.44235 23.8607 8.19618C24.1071 7.95001 24.2749 7.63631 24.343 7.29476C24.4111 6.9532 24.3763 6.59912 24.2432 6.27731C24.11 5.95549 23.8844 5.68038 23.5949 5.48677C23.3054 5.29316 22.965 5.18975 22.6167 5.18961H22.616C22.1491 5.18983 21.7014 5.37533 21.3713 5.70536C21.0411 6.0354 20.8554 6.48299 20.855 6.94982ZM8.85365 26.7282C7.4229 26.663 6.64525 26.4247 6.12846 26.2234C5.44332 25.9567 4.95447 25.639 4.4405 25.1257C3.92653 24.6125 3.60838 24.1241 3.34282 23.439C3.14136 22.9225 2.90304 22.1446 2.838 20.714C2.76686 19.1672 2.75266 18.7025 2.75266 14.7838C2.75266 10.865 2.76803 10.4017 2.838 8.85361C2.90316 7.42292 3.14324 6.64659 3.34282 6.12853C3.60955 5.44342 3.92723 4.95459 4.4405 4.44064C4.95377 3.92669 5.44215 3.60855 6.12846 3.343C6.64502 3.14155 7.4229 2.90324 8.85365 2.83821C10.4005 2.76706 10.8652 2.75286 14.7823 2.75286C18.6994 2.75286 19.1646 2.76824 20.7127 2.83821C22.1434 2.90336 22.9198 3.14343 23.4379 3.343C24.123 3.60855 24.6119 3.92739 25.1259 4.44064C25.6398 4.95389 25.9568 5.44342 26.2235 6.12853C26.425 6.64507 26.6633 7.42292 26.7283 8.85361C26.7995 10.4017 26.8137 10.865 26.8137 14.7838C26.8137 18.7025 26.7995 19.1659 26.7283 20.714C26.6632 22.1446 26.4237 22.9223 26.2235 23.439C25.9568 24.1241 25.6391 24.613 25.1259 25.1257C24.6126 25.6385 24.123 25.9567 23.4379 26.2234C22.9213 26.4248 22.1434 26.6631 20.7127 26.7282C19.1659 26.7993 18.7012 26.8135 14.7823 26.8135C10.8634 26.8135 10.4 26.7993 8.85365 26.7282ZM8.73214 0.198242C7.16991 0.269383 6.1024 0.517085 5.17014 0.879834C4.20465 1.25444 3.38731 1.757 2.57057 2.57242C1.75383 3.38785 1.25253 4.20644 0.877911 5.17189C0.515149 6.1047 0.267437 7.17158 0.196293 8.73375C0.123975 10.2984 0.107422 10.7986 0.107422 14.7837C0.107422 18.7687 0.123975 19.2689 0.196293 20.8336C0.267437 22.3959 0.515149 23.4626 0.877911 24.3954C1.25253 25.3603 1.75394 26.1798 2.57057 26.9949C3.3872 27.81 4.20465 28.3118 5.17014 28.6875C6.10416 29.0502 7.16991 29.2979 8.73214 29.3691C10.2977 29.4402 10.7971 29.4579 14.7823 29.4579C18.7675 29.4579 19.2678 29.4414 20.8325 29.3691C22.3948 29.2979 23.4616 29.0502 24.3945 28.6875C25.3594 28.3118 26.1773 27.8103 26.994 26.9949C27.8108 26.1795 28.311 25.3603 28.6867 24.3954C29.0494 23.4626 29.2983 22.3957 29.3683 20.8336C29.4394 19.2678 29.456 18.7687 29.456 14.7837C29.456 10.7986 29.4394 10.2984 29.3683 8.73375C29.2972 7.17146 29.0494 6.10411 28.6867 5.17189C28.311 4.20702 27.8095 3.38914 26.994 2.57242C26.1786 1.75571 25.3594 1.25444 24.3956 0.879834C23.4616 0.517085 22.3947 0.268209 20.8336 0.198242C19.2689 0.127102 18.7687 0.109375 14.7835 0.109375C10.7982 0.109375 10.2977 0.125928 8.73214 0.198242Z" />
+									</svg>
+								</a>
+							</li>
+							<li class="socials-block__item">
+								<a class="socials-block__link tg" href="#" target="_blank">
+									<svg width="31" height="26" viewBox="0 0 31 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M7.74475 14.8693L11.0483 24.0129C11.0483 24.0129 11.4613 24.8685 11.9036 24.8685C12.3458 24.8685 18.9238 18.0252 18.9238 18.0252L26.2388 3.89648L7.86263 12.509L7.74475 14.8693Z" />
+										<path d="M12.1227 17.2168L11.4885 23.9565C11.4885 23.9565 11.2231 26.0217 13.2877 23.9565C15.3524 21.8914 17.3287 20.2989 17.3287 20.2989" />
+										<path d="M7.80175 15.1962L1.00631 12.9821C1.00631 12.9821 0.194184 12.6526 0.45569 11.9055C0.509523 11.7514 0.618116 11.6203 0.942968 11.395C2.44866 10.3455 28.812 0.869772 28.812 0.869772C28.812 0.869772 29.5564 0.61894 29.9954 0.785775C30.104 0.819394 30.2017 0.881259 30.2786 0.965041C30.3554 1.04882 30.4087 1.15151 30.4328 1.26261C30.4802 1.45884 30.5001 1.66072 30.4917 1.86243C30.4897 2.03692 30.4685 2.19865 30.4525 2.45227C30.292 5.04296 25.4869 24.3782 25.4869 24.3782C25.4869 24.3782 25.1994 25.5096 24.1694 25.5483C23.9163 25.5565 23.6641 25.5136 23.4279 25.4222C23.1917 25.3309 22.9763 25.1929 22.7946 25.0165C20.7733 23.2778 13.7872 18.5828 12.2434 17.5502C12.2086 17.5265 12.1793 17.4956 12.1574 17.4596C12.1356 17.4235 12.1217 17.3832 12.1167 17.3414C12.0951 17.2326 12.2135 17.0978 12.2135 17.0978C12.2135 17.0978 24.3783 6.28482 24.7019 5.1497C24.727 5.06176 24.6323 5.01837 24.5052 5.05688C23.6972 5.35412 9.691 14.1991 8.14517 15.1753C8.0339 15.209 7.91629 15.2161 7.80175 15.1962Z" />
+									</svg>
+								</a>
+							</li>
+							<li class="socials-block__item">
+								<a class="socials-block__link x" href="#" target="_blank">
+									<svg width="24" height="22" viewBox="0 0 24 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M0.0646183 0.0078125L9.07786 11.9642L0.0078125 21.6853H2.04928L9.99027 13.1742L16.4061 21.6853H23.3528L13.8323 9.05654L22.2747 0.0078125H20.2333L12.9202 7.84621L7.01132 0.0078125H0.0646183ZM3.06668 1.49954H6.25796L20.3504 20.1936H17.1591L3.06668 1.49954Z" />
+									</svg>
+								</a>
+							</li>
+							<li class="socials-block__item">
+								<a class="socials-block__link li" href="#" target="_blank">
+									<svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M4.92869 21.6809V7.05462H0.28172V21.6809H4.92918H4.92869ZM2.60618 5.05799C4.22633 5.05799 5.23499 3.93486 5.23499 2.53126C5.20466 1.09569 4.22633 0.00390625 2.63699 0.00390625C1.04655 0.00390625 0.0078125 1.09569 0.0078125 2.53114C0.0078125 3.93473 1.0161 5.05786 2.57573 5.05786H2.60581L2.60618 5.05799ZM7.50085 21.6809H12.1475V13.5138C12.1475 13.0773 12.1778 12.6395 12.3005 12.3277C12.6363 11.454 13.4009 10.5495 14.6849 10.5495C16.366 10.5495 17.0389 11.8907 17.0389 13.8571V21.6809H21.6853V13.2946C21.6853 8.80226 19.3932 6.71171 16.3359 6.71171C13.8294 6.71171 12.7285 8.17736 12.1169 9.17562H12.1478V7.05512H7.50109C7.56175 8.42724 7.50073 21.6814 7.50073 21.6814L7.50085 21.6809Z" />
+									</svg>
+								</a>
+							</li>
+							<li class="socials-block__item">
+								<a class="socials-block__link yt" href="#" target="_blank">
+									<svg width="29" height="22" viewBox="0 0 29 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M27.9595 3.39911C27.8091 2.73365 27.5026 2.12394 27.0711 1.63154C26.6396 1.13915 26.0983 0.781518 25.5019 0.59477C23.323 0.00585947 14.6074 0.00585938 14.6074 0.00585938C14.6074 0.00585938 5.89183 0.00585938 3.71293 0.650857C3.11657 0.837604 2.57531 1.19524 2.1438 1.68763C1.71228 2.18002 1.40581 2.78974 1.25533 3.45519C0.856557 5.90276 0.661497 8.38565 0.672599 10.8727C0.658385 13.3784 0.853458 15.8802 1.25533 18.3462C1.42123 18.991 1.73457 19.5775 2.16507 20.0491C2.59558 20.5207 3.1287 20.8615 3.71293 21.0384C5.89183 21.6834 14.6074 21.6834 14.6074 21.6834C14.6074 21.6834 23.323 21.6834 25.5019 21.0384C26.0983 20.8516 26.6396 20.494 27.0711 20.0016C27.5026 19.5092 27.8091 18.8995 27.9595 18.2341C28.3552 15.8049 28.5503 13.341 28.5423 10.8727C28.5565 8.36693 28.3614 5.8651 27.9595 3.39911Z" />
+										<path d="M11.7567 15.4578L19.0408 10.8727L11.7567 6.28757V15.4578Z" />
+									</svg>
+								</a>
+							</li>
+							<li class="socials-block__item">
+								<a class="socials-block__link fb" href="#" target="_blank">
+									<svg width="16" height="31" viewBox="0 0 16 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M9.98756 16.3175H14.7977L15.553 11.4012H9.98658V8.71424C9.98658 6.67195 10.6499 4.86095 12.5487 4.86095H15.5999V0.570659C15.0638 0.497825 13.93 0.338379 11.7876 0.338379C7.31393 0.338379 4.69117 2.71531 4.69117 8.13059V11.4012H0.0922852V16.3175H4.69117V29.8301C5.60194 29.9679 6.52446 30.0614 7.47143 30.0614C8.32742 30.0614 9.16287 29.9826 9.98756 29.8704V16.3175Z" />
+									</svg>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+
+				<p class="footer__copyright">2024 © AIFC All rights reserved</p>
+			</div>
+		</footer>
+	</div>
+
+	<script src="js/app.min.js?_v=20240530062219"></script>
+	<script>
+		// 2. This code loads the IFrame Player API code asynchronously.
+		var tag = document.createElement('script');
+
+		tag.src = "https://www.youtube.com/iframe_api";
+		var firstScriptTag = document.getElementsByTagName('script')[0];
+		firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+		// 3. This function creates an <iframe> (and YouTube player)
+		//    after the API code downloads.
+		var player;
+		$('.to-play').click(function() {
+
+
+			let btn = $(this),
+				videoId = btn.data('video'),
+				playerId = btn.data('id'),
+				player = new YT.Player(playerId, {
+					videoId: videoId,
+					height: '538',
+					width: '956',
+					playerVars: {
+						'playsinline': 1,
+						'autoplay': 0,
+						'controls': 1,
+						// 'showindo': 0,
+					},
+					events: {
+						'onReady': onPlayerReady,
+					}
+				});
+		})
+
+
+		function onPlayerReady(event) {
+			let video = event.target.getIframe();
+			$(video).siblings('.to-play').addClass('removed')
+			$(video).siblings('.video-block__container').addClass('removed')
+			event.target.playVideo();
+		}
+
+
+
+		var done = false;
+
+		function onPlayerStateChange(event) {
+			if (event.data == YT.PlayerState.PLAYING && !done) {
+				setTimeout(stopVideo, 6000);
+				done = true;
+			}
+		}
+
+		function stopVideo() {
+			player.stopVideo();
+		}
+	</script>
+</body>
+
+</html>
